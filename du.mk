@@ -32,8 +32,8 @@ PRODUCT_MANUFACTURER := motorola
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-BUILD_FINGERPRINT=google/shamu/shamu:7.0/NBD91P/3397968:user/release-keys \
-PRIVATE_BUILD_DESC="shamu-user 7.0 NBD91P 3397968 release-keys"
+BUILD_FINGERPRINT=google/shamu/shamu:7.0/NBD91U/3408911:user/release-keys \
+PRIVATE_BUILD_DESC="shamu-user 7.0 NBD91U 3408911 release-keys"
 
 $(call inherit-product, device/moto/shamu/device.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/device-vendor.mk)
